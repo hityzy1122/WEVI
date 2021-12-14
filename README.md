@@ -3,7 +3,6 @@
 
 [[Paper](https://openaccess.thecvf.com/content/ICCV2021/html/Yu_Training_Weakly_Supervised_Video_Frame_Interpolation_With_Events_ICCV_2021_paper.html)]
 [[Video](https://www.youtube.com/watch?v=ktG5U3WKGes&t=2s)]
-[[Presentation](https://www.youtube.com/watch?v=yvx2huVaQ74&t=4s)]
 
 ### 1.Abstract
 This version of code is used for training on real low-fps dvs data, which is collected by [DAVIS240C](https://inivation.com/wp-content/uploads/2019/08/DAVIS240.pdf). An aedat4 file for demo is provided in dataset/aedat4, which can be used to run the whole process.
