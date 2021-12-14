@@ -28,18 +28,18 @@ Sorry for breaking the promise. This work is done during my intership in company
 9) compiling correlation module
 (The PWCNet and the correlation module are modified from [DAIN](https://github.com/baowenbo/DAIN/tree/master/PWCNet))
 
-a) cd stage1/lib/pwcNet/correlation_pytorch1_1
+   a) cd stage1/lib/pwcNet/correlation_pytorch1_1
 
-b) python setup.py install
+   b) python setup.py install
 
 
 10) Install apex: https://github.com/NVIDIA/apex
 
 11) For processing DVS file:
 
-a) More detail information about aedat4 file and DAVIS240C can be found in https://inivation.gitlab.io/dv/dv-docs/docs/getting-started/
+   a) More detail information about aedat4 file and DAVIS240C can be found in https://inivation.gitlab.io/dv/dv-docs/docs/getting-started/
 
-b) tools for processing aedat4 file: https://gitlab.com/inivation/dv/dv-python
+   b) tools for processing aedat4 file: https://gitlab.com/inivation/dv/dv-python
 
 12) For distributed training with multi-gpus on cluster: slurm 15.08.11
  
