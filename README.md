@@ -26,8 +26,7 @@ Sorry for breaking the promise. This work is done during my intership in company
 8) opencv_contrib_python
 
 9) compiling correlation module
-
-The PWCNet and the correlation module are modified from [DAIN](https://github.com/baowenbo/DAIN/tree/master/PWCNet)
+(The PWCNet and the correlation module are modified from [DAIN](https://github.com/baowenbo/DAIN/tree/master/PWCNet))
 
 a) cd stage1/lib/pwcNet/correlation_pytorch1_1
 
