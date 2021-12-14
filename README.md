@@ -37,9 +37,9 @@ Sorry for breaking the promise. This work is done during my intership in company
 
 11) For processing DVS file:
 
-   a) More detail information about aedat4 file and DAVIS240C can be found in https://inivation.gitlab.io/dv/dv-docs/docs/getting-started/
+   a) More detail information about aedat4 file and DAVIS240C can be found in [here](https://inivation.gitlab.io/dv/dv-docs/docs/getting-started/)
 
-   b) tools for processing aedat4 file: https://gitlab.com/inivation/dv/dv-python
+   b) tools for processing aedat4 file: [dv-python](https://gitlab.com/inivation/dv/dv-python)
 
 12) For distributed training with multi-gpus on cluster: slurm 15.08.11
  
