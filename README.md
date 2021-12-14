@@ -44,7 +44,7 @@ b) tools for processing aedat4 file: https://gitlab.com/inivation/dv/dv-python
 
 12). For distributed training with multi-gpus on cluster: slurm 15.08.11
  
-### 3.preparing training data
+### 3.Preparing training data
 You can prepare your own event data according to the demo in DVSTool
 
 1) place aedat4 file in ./dataset/aedat4 following the demo data
