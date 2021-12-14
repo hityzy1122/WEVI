@@ -9,23 +9,23 @@ This version of code is used for training on real low-fps dvs data, which is col
  
 Sorry for breaking the promise. This work is done during my intership in company, as some information about face, human body and palm print exists in most of the proposed slomoDVS dataset, the dataset does not pass the compliance review policy launched recently by company.
 ### 2.Environments
-1).cuda 9.0
+1) cuda 9.0
 
-2).python 3.7
+2) python 3.7
 
-3).pytorch 1.1
+3) pytorch 1.1
 
-4).numpy 1.17.2
+4) numpy 1.17.2
 
-5).tqdm
+5) tqdm
 
-6).gcc 5.2.0
+6) gcc 5.2.0
 
-7).cmake 3.16.0
+7) cmake 3.16.0
 
-8).opencv_contrib_python
+8) opencv_contrib_python
 
-9). compiling correlation module
+9) compiling correlation module
 
 The PWCNet and the correlation module are modified from [DAIN](https://github.com/baowenbo/DAIN/tree/master/PWCNet)
 
@@ -34,15 +34,15 @@ a) cd stage1/lib/pwcNet/correlation_pytorch1_1
 b) python setup.py install
 
 
-10). Install apex: https://github.com/NVIDIA/apex
+10) Install apex: https://github.com/NVIDIA/apex
 
-11). For processing DVS file:
+11) For processing DVS file:
 
 a) More detail information about aedat4 file and DAVIS240C can be found in https://inivation.gitlab.io/dv/dv-docs/docs/getting-started/
 
 b) tools for processing aedat4 file: https://gitlab.com/inivation/dv/dv-python
 
-12). For distributed training with multi-gpus on cluster: slurm 15.08.11
+12) For distributed training with multi-gpus on cluster: slurm 15.08.11
  
 ### 3.Preparing training data
 You can prepare your own event data according to the demo in DVSTool
