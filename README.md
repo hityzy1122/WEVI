@@ -6,8 +6,9 @@
 [[Presentation](https://www.youtube.com/watch?v=yvx2huVaQ74&t=4s)]
 
 ### 1.Abstract
-This version of code is used for training on real low-fps dvs data, which is collected by [DAVIS240C](https://inivation.com/wp-content/uploads/2019/08/DAVIS240.pdf).
- An aedat4 file for demo is provided in dataset/aedat4, which can be used to run the whole process.
+This version of code is used for training on real low-fps dvs data, which is collected by [DAVIS240C](https://inivation.com/wp-content/uploads/2019/08/DAVIS240.pdf). An aedat4 file for demo is provided in dataset/aedat4, which can be used to run the whole process.
+ 
+Sorry for breaking the promise. This work is done during my intership in company, as some information about face, human body and palm print exists in most of the proposed slomoDVS dataset, the dataset does not pass the compliance review policy launched recently by company.
 ### 2.Environments
 1).cuda 9.0
 
