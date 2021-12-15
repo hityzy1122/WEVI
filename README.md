@@ -7,7 +7,7 @@
 ### 1.Abstract
 This version of code is used for training on real low-fps dvs data, which is collected by [DAVIS240C](https://inivation.com/wp-content/uploads/2019/08/DAVIS240.pdf). An aedat4 file for demo is provided in dataset/aedat4, which can be used to run the whole process.
  
-Sorry for breaking the promise. This work is done during my intership in company, as some information about face, human body and palm print exists in most of the proposed slomoDVS dataset, the dataset does not pass the compliance review policy launched recently by company.
+Sorry for breaking the promise. As some sensitive information about face, human body, number plate and palm print exists in most of the proposed slomoDVS dataset, the dataset does not pass the compliance review policy launched recently by company.
 ### 2.Environments
 1) cuda 9.0
 
@@ -46,10 +46,10 @@ Sorry for breaking the promise. This work is done during my intership in company
 ### 3.Preparing training data
 You can prepare your own event data according to the demo in DVSTool
 
-1) place aedat4 file in ./dataset/aedat4 following the demo data
+1) Place aedat4 file in ./dataset/aedat4
 2) cd DVSTool
 3) python mainDVSProcess_01.py  
-It will transform the events and frame saved in .aedat4 into pkl which will be saved in dataset/fastDVS_process
+It will extract the events and frame saved in .aedat4 into pkl which will be saved in dataset/fastDVS_process
 4) python mainGetDVSTrain_02.py  
 It will gather the train samples and save in dataset/fastDVS_dataset/train.  (A train sample includes I0, I1, I2, I01, I21 and E1)
 5) python mainGetDVSTest_03.py  
