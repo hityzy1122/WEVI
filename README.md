@@ -5,9 +5,9 @@
 [[Video](https://www.youtube.com/watch?v=ktG5U3WKGes&t=2s)]
 
 ### 1.Abstract
-This version of code is used for training on real low-fps dvs data, which is collected by [DAVIS240C](https://inivation.com/wp-content/uploads/2019/08/DAVIS240.pdf). An aedat4 file for demo is provided in dataset/aedat4, which can be used to run the whole process.
+This version of code is used for training on real low-fps data of dvs, which is collected by [DAVIS240C](https://inivation.com/wp-content/uploads/2019/08/DAVIS240.pdf). This code can be trained by the visible low-fps frames(12fps) with corresponding events saved in the aedat4 files  and interpolate the inbetweens at any time. An aedat4 file is provided in dataset/aedat4, which can be used as a demo to run the whole process.
  
-Sorry for breaking the promise. As some sensitive information about face, human body, number plate and palm print exists in most of the proposed slomoDVS dataset, the dataset does not pass the compliance review policy launched recently by company.
+Sorry for breaking the promise. As some sensitive information about face, human body, number plate and palm print exists in most of the proposed slomoDVS dataset, the dataset and the pretained weight on it do not pass the compliance review policy launched recently by company.
 ### 2.Environments
 1) cuda 9.0
 
