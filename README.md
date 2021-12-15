@@ -56,7 +56,7 @@ It will gather the train samples and save in dataset/fastDVS_dataset/train.  (A 
 It will gather the test samples and save in dataset/fastDVS_dataset/test  (A test sample includes I0, I1, E1/3, E2/3)
 ### 4.Training stage1
 cd stage1 
-#### 1) Training on single gpu:
+#### 1) Training with single gpu:
 a) Modify the config in configs/configEVI.py accordingly
 
 b) python train.py
@@ -73,7 +73,7 @@ cd stage2
 
 Place the experiment dir trained by stage1 in ./output
 
-#### 1) Training on single gpu:
+#### 1) Training with single gpu:
 a) Modify the config in configs/configEVI.py accordingly, especially the path in line 28, 29
 
 b) python train.py
