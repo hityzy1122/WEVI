@@ -53,7 +53,7 @@ It will extract the events and frame saved in .aedat4 into pkl which will be sav
 4) python mainGetDVSTrain_02.py  
 It will gather the train samples and save in dataset/fastDVS_dataset/train.  (A train sample includes I0, I1, I2, I01, I21 and E1)
 5) python mainGetDVSTest_03.py  
-It will gather the test samples and save in dataset/fastDVS_dataset/test  (A test sample includes I0, I1, E1/3, E2/3)
+It will gather the test samples and save in dataset/fastDVS_dataset/test  (A test sample includes I_-1, I0, I1, I2, E1/3, E2/3)
 ### 4.Training stage1
 cd stage1 
 #### 1) Training with single gpu:
