@@ -97,4 +97,4 @@ c) python runBash/runEvi.py
 }
 ```
 ### 7. Reference code base 
-[[styleGAN](https://github.com/tomguluson92/StyleGAN_PyTorch)] [[TTSR](https://github.com/researchmm/TTSR)] [[DAIN](https://github.com/baowenbo/DAIN/tree/master/PWCNet)] [[superSlomo](https://github.com/avinashpaliwal/Super-SloMo)] [[QVI](https://sites.google.com/view/xiangyuxu/qvi_nips19)] [[faceShiter](https://github.com/mindslab-ai/faceshifter)]
+[[styleGAN](https://github.com/tomguluson92/StyleGAN_PyTorch)], [[TTSR](https://github.com/researchmm/TTSR)], [[DAIN](https://github.com/baowenbo/DAIN/tree/master/PWCNet)], [[superSlomo](https://github.com/avinashpaliwal/Super-SloMo)], [[QVI](https://sites.google.com/view/xiangyuxu/qvi_nips19)], [[faceShiter](https://github.com/mindslab-ai/faceshifter)]
