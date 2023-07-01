@@ -6,8 +6,7 @@
 
 ### 1.Abstract
 This version of code is used for training on real low-fps data of dvs, which is collected by [DAVIS240C](https://inivation.com/wp-content/uploads/2019/08/DAVIS240.pdf). This code can be trained by the visible low-fps frames(12fps) with corresponding events saved in the aedat4 files  and interpolate the inbetweens at any time. An aedat4 file is provided in dataset/aedat4, which can be used as a demo to run the whole process.
- 
-Sorry for breaking the promise. As some sensitive information about face, human body, number plate and palm print exists in most of the proposed slomoDVS dataset, the dataset and the pretained weight on it do not pass the compliance review policy launched recently by company.
+
 ### 2.Environments
 1) cuda 9.0
 
@@ -61,7 +60,7 @@ a) Modify the config in configs/configEVI.py accordingly
 
 b) python train.py
 
-#### 2) Training with muli-gpus(16) on cluser managed by slurm:
+#### 2) Training with muli-gpus(16) on cluster managed by slurm:
 a) Modify config in configs/configEVI.py accordingly
 
 b) Modify runEvi.py in runBash accordingly
@@ -74,12 +73,12 @@ cd stage2
 Place the experiment dir trained by stage1 in ./output
 
 #### 1) Training with single gpu:
-a) Modify the config in configs/configEVI.py accordingly, especially the path in line 28, 29
+a) Modify the config in configs/configEVI.py accordingly, especially the path in lines 28, 29
 
 b) python train.py
 
-#### 2) Training with muli-gpus(16) on cluser managed by slurm:
-a) Modify config in configs/configEVI.py accordingly, especially the path in line 28, 29
+#### 2) Training with muli-gpus(16) on cluster managed by slurm:
+a) Modify config in configs/configEVI.py accordingly, especially the path in lines 28, 29
 
 b) Modify runEvi.py in runBash accordingly
 
